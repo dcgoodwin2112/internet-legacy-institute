@@ -20,7 +20,7 @@
   }
 
   ul {
-    @apply mx-8 my-8 sm:text-base md:text-lg text-gray-700 border-gray-100;
+    @apply mx-8 my-8 sm:text-base md:text-lg text-gray-700;
     list-style-type: square;
   }
 
@@ -35,4 +35,13 @@
   header a:hover {
     @apply text-secondary-lighter no-underline;
   }
+
+  main a {
+    @apply text-secondary underline;
+  }
+
+  main a:hover {
+    @apply text-secondary-darker no-underline;
+  }
 }
+
